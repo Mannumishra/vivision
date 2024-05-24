@@ -60,7 +60,7 @@ const Home = () => {
           <div className="contentmain">
             <div>
               <img src={iconi} alt="" />
-              <p>Affradable price</p>
+              <p>Affordable Price</p>
             </div>
             <div>
               <img src={iconi1} alt="" />
