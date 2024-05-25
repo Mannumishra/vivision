@@ -11,6 +11,7 @@ import iconi3 from '../../Images/product/award-removebg-preview.png'
 import iconi4 from '../../Images/product/best_quality.webp'
 import iconi5 from '../../Images/product/guarantee-icon.webp'
 import { Link } from 'react-router-dom'
+import Product from '../Product/Product'
 const Home = () => {
   const [count, setCount] = useState(0);
 
@@ -111,6 +112,11 @@ const Home = () => {
           <p>Current Value: {count}</p>
         </div>
       </section> */}
+
+      <section>
+
+        <Product />
+      </section>
     </>
   )
 }
