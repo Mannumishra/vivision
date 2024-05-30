@@ -25,6 +25,12 @@ const Home = () => {
     }, 1)
     return () => clearInterval(interval);
   }, [count]);
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }, [])
   return (
     <>
       <section>
@@ -82,7 +88,7 @@ const Home = () => {
       <section>
         <div className="homeabout">
           <div className="homeaboutimage">
-            <img src={image4} alt=""  />
+            <img src={image4} alt="" />
           </div>
           <div className="homeabouttext">
             <p className='abouthomesmallheading'>ABOUT vivsion globax ENTERPRISES</p>

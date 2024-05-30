@@ -1,1 +1,32 @@
-
+.conatcatap{
+    padding: 0px 40px;
+}
+.contactheading{
+    margin-top: 30px;
+}
+.contactheading p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.mb-3 button{
+    background-color: #2A739C;
+    color: white;
+    border: 0px;
+    padding:5px;
+    border-radius: 5px;
+    width: 100%;
+}
+.contactform{
+    display: flex;
+    gap: 20px;
+    padding:10px 40px;
+}
+.contactimage{
+    width: 49%;
+}
+.contactimage img{
+    width: 100%;
+    margin-top: 80px;
+}

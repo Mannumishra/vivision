@@ -16,11 +16,8 @@ const Footer = () => {
             <div>
               <p><Link to='/' style={{ textDecoration: "none", color: "white" }}>Home</Link></p>
               <p><Link to='/about' style={{ textDecoration: "none", color: "white" }}>About</Link></p>
-              <p><Link to='/service' style={{ textDecoration: "none", color: "white" }}>Find Your Match</Link></p>
-            </div>
-            <div>
-              <p><Link to='/contact' style={{ textDecoration: "none", color: "white" }}>Contact Us</Link></p>
-              <p><Link to='/success' style={{ textDecoration: "none", color: "white" }}>Success Story</Link></p>
+              <p><Link to='/service' style={{ textDecoration: "none", color: "white" }}>Product</Link></p>
+              <p><Link to='/service' style={{ textDecoration: "none", color: "white" }}>Contact</Link></p>
             </div>
           </div>
         </div>
@@ -28,8 +25,8 @@ const Footer = () => {
           <p>Contact Details</p>
           <div><i className="ri-map-pin-user-line"></i><span>E-138, Main Road, Amar Colony Lajpat Nagar - IV
             Delhi - 110024 India</span></div>
-          <div><i className="ri-phone-line"></i> <span><a href="tel:+919540849901">+91 9540849901</a></span></div>
-          <div><i className="ri-mail-line"></i><span><a href="mailto:+919540849901">abc@gmail.com</a></span></div>
+          <div><i className="ri-phone-line"></i> <span><a href="tel:+919013410101">+91 9013410101</a></span></div>
+          <div><i className="ri-mail-line"></i><span><a href="mailto:vvisionglobexindpvtltd@gmail.com">vvisionglobexindpvtltd@gmail.com</a></span></div>
         </div>
         <div className='footerfourdiv'>
           <p>Follow us</p>

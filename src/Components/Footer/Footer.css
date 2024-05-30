@@ -11,7 +11,7 @@
 }
 .footerfirstdiv p{
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -20,8 +20,8 @@
 }
 .footerseconddiv p{
     color: orange;
-    margin-left: 40px;
-    font-size: 14px;
+    margin-left: 70px;
+    font-size: 17px;
     font-weight: 700;
 }
 
@@ -30,13 +30,13 @@
 }
 .footerthirddiv p{
     color: orange;
-    margin-left: 20px;
+    margin-left: 0px;
     font-size: 18px;
     font-weight: 600;
 }
 .footerthirddiv div{
     color: white;
-    margin-left: 40px;
+    margin-left: 0px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -64,9 +64,7 @@
 }
 
 .quicklinksdiv{
-display: flex;
-/* flex-direction: column; */
-gap: 5px;
+
 }
 
 @media (max-width:768px){

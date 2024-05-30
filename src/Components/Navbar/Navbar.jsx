@@ -16,7 +16,7 @@ const Navbar = () => {
         {/* Desktop Navbar */}
         <div className="desktop">
           <div className="navlogo">
-            <img src={logo} alt="Logo" />
+           <Link to='/'> <img src={logo} alt="Logo" /></Link>
           </div>
           <div className="navlinks">
             <ul>
