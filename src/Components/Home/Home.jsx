@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './Home.css';
 import image1 from '../../Images/product/bananre.jpeg';
-import image2 from '../../Images/product/banare1.jpeg';
-import image3 from '../../Images/product/banare3.jpeg';
+import image2 from '../../Images/product/banare3.jpeg';
+import image3 from '../../Images/product/banare4.jpeg';
+import image5 from '../../Images/product/banare5.jpeg';
 import image4 from '../../Images/product/34566EFB-6FC1-4AF0-BA6E-5A7D4CCBAEB8.jpeg';
 import iconi from '../../Images/product/3218617.png';
 import iconi1 from '../../Images/product/gaur-removebg-preview.png';
@@ -76,6 +77,7 @@ const Home = () => {
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -83,6 +85,9 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img src={image2} className="d-block w-100" alt="..." style={{ height: 500 }} />
+            </div>
+            <div className="carousel-item">
+              <img src={image5} className="d-block w-100" alt="..." style={{ height: 500 }} />
             </div>
             <div className="carousel-item">
               <img src={image3} className="d-block w-100" alt="..." style={{ height: 500 }} />
