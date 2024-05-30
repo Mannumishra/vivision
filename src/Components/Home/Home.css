@@ -132,27 +132,44 @@
 }
 
 /*  */
+.sectionincrement {
+    background-image: url(../../Images/product/bagground.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
 .incrementor {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 8px;
-    width: 200px;
-    margin: 20px auto;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 60px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40PX;
+}
+.incrementdiv{
+    width: 25%;
+    padding: 10PX;
+    color: white;
+    background-color: #2A739C;
+    border-radius: 5PX;
+}
+.counting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    opacity: 0.9;
+    font-weight: 900;
+}
+.countingtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    opacity: 0.9;
+    font-weight: 500;
 }
 
-.incrementor h2 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
 
-.incrementor p {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-    color: #333;
-}
 
 
 
@@ -191,6 +208,7 @@
     .contentmain div img {
         height: 50px;
     }
+
     .contentmain div:hover {
         height: 150px;
         width: 100%;
@@ -248,5 +266,35 @@
 
     .homeaboutbutton button {
         width: 100%;
+    }
+}
+
+/*  */
+@media(max-width:768px){
+    .incrementor {
+        padding: 60px 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10PX;
+    }
+    .incrementdiv{
+        width: 48%;
+        padding: 10PX;
+        color: white;
+        background-color: #2A739C;
+        border-radius: 5PX;
+    }
+    .counting{
+        font-size: 30px;
+    }
+    .countingtext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        opacity: 0.9;
+        font-weight: 500;
     }
 }

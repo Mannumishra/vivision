@@ -1,7 +1,8 @@
-.aboutsection{
+.aboutsection {
     padding: 40px;
 }
-.aboutheading p{
+
+.aboutheading p {
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
@@ -9,15 +10,27 @@
     font-family: cursive;
 
 }
-.abouttext{
+
+.abouttext {
     font-size: 16px;
     font-weight: 600;
     text-align: justify;
     opacity: 0.9;
     text-transform: capitalize;
 }
-.abouttextheading{
+
+.abouttextheading {
     font-size: 20px;
     font-weight: 700;
     opacity: 0.9;
+}
+
+@media(max-width:768px) {
+    .aboutsection {
+        padding: 10px;
+    }
+
+    .aboutheading p {
+        font-size: 23px;
+    }
 }
