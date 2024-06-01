@@ -6,7 +6,7 @@ section {
   /* Desktop styles */
   .desktop {
     display: flex;
-    height: 80px;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to right, #2E85C4, #EB1C22);
@@ -20,7 +20,7 @@ section {
   }
   
   .navlogo img {
-    height: 100px;
+    height: 150px;
     width: auto;
   }
   
